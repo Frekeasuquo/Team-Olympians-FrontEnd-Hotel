@@ -1,4 +1,8 @@
-     .nav-item,ul{
+body {
+    overflow-x: hidden;
+}
+
+.nav-item,ul{
        
         list-style-type: none;
         text-decoration-color: white;
