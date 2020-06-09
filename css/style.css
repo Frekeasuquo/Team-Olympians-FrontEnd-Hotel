@@ -1,6 +1,30 @@
 body {
-    overflow-x: hidden;
+    padding-top: 0.2rem;
 }
+
+.navigation {
+display: flex;
+}
+
+.hotel-logo {
+    margin-right: 24.5rem ;
+    position: relative;
+    bottom: 12px;
+    left: 1.5rem;
+   }
+
+
+.hotel-text{
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 80px;
+    margin-left: 65px;
+    position: absolute;
+    top: 5.5rem;
+    left: 2rem;
+   }
 
 .nav-item,ul{
        
@@ -59,23 +83,34 @@ body {
            
        }
 
-       .hotel-text{
-        font-family: Fredoka One;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        padding-bottom: 80px;
-        margin-left: 65px;
-           
-       }
+     main {
+         margin: 1.7rem 0 6rem 2rem;
+         padding: 0 0 0 1rem;
+         background-image: url("../assets/images/home/Background-Earth.png");
+     }
 
        .main-Imgs {
            display: flex;
-           background-image: url("assets/images/home/Background-Earth.png");
        }
 
-       .main-Imgs div {
-           
+       .main-Imgs :nth-child(1) img {
+        width: 763px;
+        height: 602px;
+       }
+
+       .main-Imgs :last-child img {
+        width: 486px;
+        height: 326px;
+       }
+
+       .left :first-child {
+           font-size: 3.5rem;
+           margin: 10rem 0 0 1.5rem;
+       }
+
+       .left :nth-child(2) {
+           font-size: 2rem;
+           padding-left: 2rem;
        }
 
        .hotel-footer{
